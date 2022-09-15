@@ -10,15 +10,9 @@ on:
   workflow_dispatch:
 
 env:
-<<<<<<< HEAD
   AZURE_WEBAPP_NAME: anaMern2 # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '14.x'
-=======
-  AZURE_WEBAPP_NAME: anaMern2    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '16.x'
->>>>>>> af48d01f2a180c2f99322c45cb44c7c2ecab3598
 
 jobs:
   build-and-deploy:
